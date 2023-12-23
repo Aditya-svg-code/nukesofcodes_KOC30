@@ -1,7 +1,6 @@
 import random
 c=0
-x=1
-while x>0:
+while True:
     print("Enter a number between 1 to 6 :")
     num = int(input())
     dice_num = random.randint(1, 6)
@@ -13,7 +12,5 @@ while x>0:
     run=str(input())
     if(run=="q"):
         break
-    else:
-        continue
 
 
